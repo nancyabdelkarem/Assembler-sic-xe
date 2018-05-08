@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Assembeler_First_pass" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Assembeler_First_pass" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Assembeler_First_pass" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Addressing.h" />
+		<Unit filename="include/Parsing.h" />
+		<Unit filename="include/ReadInstructionSet.h" />
+		<Unit filename="include/Validation.h" />
+		<Unit filename="include/readFile.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="sic_instructions.txt" />
+		<Unit filename="src/Addressing.cpp" />
+		<Unit filename="src/Parsing.cpp" />
+		<Unit filename="src/ReadInstructionSet.cpp" />
+		<Unit filename="src/Validation.cpp" />
+		<Unit filename="src/readFile.cpp" />
+		<Unit filename="test.txt" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

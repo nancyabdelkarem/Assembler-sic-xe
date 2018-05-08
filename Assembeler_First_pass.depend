@@ -1,0 +1,88 @@
+# depslib dependency file v1.0
+1525633346 source:d:\assembeler_first_pass\src\parsing.cpp
+	"Parsing.h"
+	<vector>
+	<string>
+	<iostream>
+	<Parsing.h>
+
+1525342321 d:\assembeler_first_pass\include\parsing.h
+	<vector>
+	<string>
+
+1525633243 source:d:\assembeler_first_pass\src\readfile.cpp
+	"ReadFile.h"
+	<vector>
+	<string>
+	<Parsing.h>
+	<iostream>
+	<Validation.h>
+	<Addressing.h>
+
+1525342562 d:\assembeler_first_pass\include\readfile.h
+	<fstream>
+	<string>
+
+1525631817 d:\assembeler_first_pass\include\validation.h
+	<vector>
+	<string>
+	<utility>
+	<tr1/unordered_map>
+
+1525507992 source:d:\assembeler_first_pass\src\readinstructionset.cpp
+	"ReadInstructionSet.h"
+	<string>
+	<utility>
+	<tr1/unordered_map>
+	<ReadInstructionSet.h>
+	<vector>
+	<fstream>
+	<iostream>
+	<conio.h>
+
+1525511281 d:\assembeler_first_pass\include\readinstructionset.h
+	<string>
+	<utility>
+	<tr1/unordered_map>
+
+1525633282 source:d:\assembeler_first_pass\src\validation.cpp
+	"Validation.h"
+	<ReadInstructionSet.h>
+	<vector>
+	<string>
+	<ReadInstructionSet.h>
+	<utility>
+	<tr1/unordered_map>
+	<iterator>
+	<iostream>
+
+1525511278 source:d:\assembeler_first_pass\main.cpp
+	<iostream>
+	<fstream>
+	<ReadInstructionSet.h>
+	<readFile.h>
+
+1525634037 source:d:\assembeler_first_pass\src\addressing.cpp
+	"Addressing.h"
+	<ReadInstructionSet.h>
+	<vector>
+	<string>
+	<utility>
+	<tr1/unordered_map>
+	<iterator>
+	<iostream>
+	<sstream>
+	<fstream>
+	<iterator>
+	<conio.h>
+	<cmath>
+	<iomanip>
+	<cstdlib>
+	<algorithm>
+
+1525632977 d:\assembeler_first_pass\include\addressing.h
+	<vector>
+	<string>
+	<utility>
+	<tr1/unordered_map>
+
